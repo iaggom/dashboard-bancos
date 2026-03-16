@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+.env
+.venv/
+venv/
+bank_credit_pipeline/output/
+mnt/
