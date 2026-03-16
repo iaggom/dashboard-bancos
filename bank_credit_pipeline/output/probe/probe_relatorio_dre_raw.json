@@ -1,0 +1,122 @@
+[
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Demonstração de Resultado",
+    "NumeroRelatorio": "4",
+    "Grupo": null,
+    "Conta": "140220",
+    "NomeColuna": "Ativo Total",
+    "DescricaoColuna": "[1000000009] + [2000000008]",
+    "Saldo": 665476916.87
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Demonstração de Resultado",
+    "NumeroRelatorio": "4",
+    "Grupo": null,
+    "Conta": "141867",
+    "NomeColuna": "Resultado antes da Tributação e Participações \n(x) = (k) + (l) + (w)",
+    "DescricaoColuna": "[7100000006] + [7300000002] + [8100000005] + [8300000001]",
+    "Saldo": 2599575.73999999
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Demonstração de Resultado",
+    "NumeroRelatorio": "4",
+    "Grupo": null,
+    "Conta": "141868",
+    "NomeColuna": "Imposto de Renda e Contribuição Social \n(y)",
+    "DescricaoColuna": "[7940000008]+ [8940000007]",
+    "Saldo": -317808.84
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Demonstração de Resultado",
+    "NumeroRelatorio": "4",
+    "Grupo": null,
+    "Conta": "141869",
+    "NomeColuna": "Participações no Lucro \n(z)",
+    "DescricaoColuna": "[8970000008]",
+    "Saldo": -275580.73
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Demonstração de Resultado",
+    "NumeroRelatorio": "4",
+    "Grupo": null,
+    "Conta": "141870",
+    "NomeColuna": "Lucro Líquido \n(aa) = (x) + (y) + (z)",
+    "DescricaoColuna": "[7000000003] + [8000000002]",
+    "Saldo": 2006186.16999999
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Demonstração de Resultado",
+    "NumeroRelatorio": "4",
+    "Grupo": "Outras Receitas / Despesas",
+    "Conta": "141856",
+    "NomeColuna": "Rendas de Tarifas Bancárias \n(m)",
+    "DescricaoColuna": "[7170100008]+ [7170200001]",
+    "Saldo": 1195892.24
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Demonstração de Resultado",
+    "NumeroRelatorio": "4",
+    "Grupo": "Outras Receitas / Despesas",
+    "Conta": "141857",
+    "NomeColuna": "Outras Rendas de Prestação de Serviços \n(n)",
+    "DescricaoColuna": "[7170000005]- [7170100008]- [7170200001]- [7170500000]",
+    "Saldo": 2270182.02
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Demonstração de Resultado",
+    "NumeroRelatorio": "4",
+    "Grupo": "Outras Receitas / Despesas",
+    "Conta": "141858",
+    "NomeColuna": "Despesas de Pessoal \n(o)",
+    "DescricaoColuna": "[8171810004]+ [8171830008]+ [8172700003]+ [8173000001]+ [8173300000]+ [8173600009]+ [8173700002]+ [8199020003]",
+    "Saldo": -8837814.08
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Demonstração de Resultado",
+    "NumeroRelatorio": "4",
+    "Grupo": "Outras Receitas / Despesas",
+    "Conta": "141859",
+    "NomeColuna": "Despesas Administrativas \n(p)",
+    "DescricaoColuna": "[8170000004]- [8171810004]- [8171830008]- [8172700003]- [8173000001]- [8173300000]- [8173600009]- [8173700002]- [8176900005]+ [8180000001]-[8181030001]- [8181035006]- [8181038003]",
+    "Saldo": -7165983.55
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Demonstração de Resultado",
+    "NumeroRelatorio": "4",
+    "Grupo": "Outras Receitas / Despesas",
+    "Conta": "141860",
+    "NomeColuna": "Resultado com Perdas Esperadas de Outras Operações \n(q)",
+    "DescricaoColuna": "[7199281001]+ [7199283009]+ [7199288004]+ [8199281000]+ [8199283008]",
+    "Saldo": 92696.91
+  }
+]

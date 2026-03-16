@@ -1,0 +1,122 @@
+[
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Resumo",
+    "NumeroRelatorio": "1",
+    "Grupo": null,
+    "Conta": "140200",
+    "NomeColuna": "Títulos e Valores Mobiliários",
+    "DescricaoColuna": "[1300000008]-[1330000009]",
+    "Saldo": 21752485.33
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Resumo",
+    "NumeroRelatorio": "1",
+    "Grupo": null,
+    "Conta": "140220",
+    "NomeColuna": "Ativo Total",
+    "DescricaoColuna": "[1000000009] + [2000000008]",
+    "Saldo": 665476916.87
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Resumo",
+    "NumeroRelatorio": "1",
+    "Grupo": null,
+    "Conta": "140239",
+    "NomeColuna": "Captações",
+    "DescricaoColuna": "[4100000009] + [4200000002] + [4300000005] - [4391000007] - [4392000006] + [4600000004]",
+    "Saldo": 390158464.2
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Resumo",
+    "NumeroRelatorio": "1",
+    "Grupo": null,
+    "Conta": "140244",
+    "NomeColuna": "Passivo Exigível",
+    "DescricaoColuna": "[4000000006]",
+    "Saldo": 585832465.19
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Resumo",
+    "NumeroRelatorio": "1",
+    "Grupo": null,
+    "Conta": "140246",
+    "NomeColuna": "Patrimônio Líquido",
+    "DescricaoColuna": "[6000000004]+ [7000000003]+ [8000000002]",
+    "Saldo": 79644451.68
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Resumo",
+    "NumeroRelatorio": "1",
+    "Grupo": null,
+    "Conta": "141870",
+    "NomeColuna": "Lucro Líquido",
+    "DescricaoColuna": "[7000000003] + [8000000002]",
+    "Saldo": 2006186.16999999
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Resumo",
+    "NumeroRelatorio": "1",
+    "Grupo": null,
+    "Conta": "141873",
+    "NomeColuna": "Carteira de Crédito",
+    "DescricaoColuna": "[1600000007] + [1741000007] + [1810000000] + [1887900009] + [1899600005]",
+    "Saldo": 369838054.79
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00075847",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Resumo",
+    "NumeroRelatorio": "1",
+    "Grupo": null,
+    "Conta": "140200",
+    "NomeColuna": "Títulos e Valores Mobiliários",
+    "DescricaoColuna": "[1300000008]-[1330000009]",
+    "Saldo": 55060649.8
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00075847",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Resumo",
+    "NumeroRelatorio": "1",
+    "Grupo": null,
+    "Conta": "140220",
+    "NomeColuna": "Ativo Total",
+    "DescricaoColuna": "[1000000009] + [2000000008]",
+    "Saldo": 3305860716.78
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00075847",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Resumo",
+    "NumeroRelatorio": "1",
+    "Grupo": null,
+    "Conta": "140239",
+    "NomeColuna": "Captações",
+    "DescricaoColuna": "[4100000009] + [4200000002] + [4300000005] - [4391000007] - [4392000006] + [4600000004]",
+    "Saldo": 2816016568.82
+  }
+]

@@ -1,0 +1,100 @@
+
+========================================================================================================================
+TESTE: service_root_json
+URL: https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata?$format=json
+STATUS: 200
+CONTENT-TYPE: application/json;odata.metadata=minimal
+URL FINAL: https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata/?$format=json
+BODY:
+{"@odata.context":"https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata/$metadata","value":[{"name":"_IfDataCadastro","url":"_IfDataCadastro"},{"name":"_ListaDeRelatorio","url":"_ListaDeRelatorio"},{"name":"_IfDataValores","url":"_IfDataValores"},{"name":"ListaDeRelatorio","url":"ListaDeRelatorio","kind":"FunctionImport"},{"name":"IfDataCadastro","url":"IfDataCadastro","kind":"FunctionImport"},{"name":"IfDataValores","url":"IfDataValores","kind":"FunctionImport"}]}
+
+========================================================================================================================
+TESTE: metadata_xml
+URL: https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata/$metadata
+STATUS: 200
+CONTENT-TYPE: application/xml
+URL FINAL: https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata/$metadata
+BODY:
+<?xml version='1.0' encoding='UTF-8'?><edmx:Edmx Version="4.0" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx"><edmx:DataServices><Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="br.gov.bcb.olinda.servico.IFDATA"><EntityType Name="TipoIfValores"><Property Name="TipoInstituicao" Type="Edm.Int32"/><Property Name="CodInst" Type="Edm.String"/><Property Name="AnoMes" Type="Edm.String"/><Property Name="NomeRelatorio" Type="Edm.String"/><Property Name="NumeroRelatorio" Type="Edm.String"/><Property Name="Grupo" Type="Edm.String"/><Property Name="Conta" Type="Edm.String"/><Property Name="NomeColuna" Type="Edm.String"/><Property Name="DescricaoColuna" Type="Edm.String"/><Property Name="Saldo" Type="Edm.Decimal" Scale="2147483647"/></EntityType><EntityType Name="ListaRelatorio
+...[cortado]...
+
+========================================================================================================================
+TESTE: cadastro_forma_simples
+URL: https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata/IfDataCadastro?$format=json&$top=1
+STATUS: 400
+CONTENT-TYPE: None
+URL FINAL: https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata/IfDataCadastro?$format=json&$top=1
+BODY:
+/*{
+  "codigo" : 400,
+  "mensagem" : "The URI is malformed."
+}*/
+
+========================================================================================================================
+TESTE: cadastro_alias_params
+URL: https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata/IfDataCadastro(AnoMes=@AnoMes,TipoInstituicao=@TipoInstituicao)?@AnoMes=202506&@TipoInstituicao=2&$format=json&$top=1
+STATUS: 400
+CONTENT-TYPE: None
+URL FINAL: https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata/IfDataCadastro(AnoMes=@AnoMes,TipoInstituicao=@TipoInstituicao)?@AnoMes=202506&@TipoInstituicao=2&$format=json&$top=1
+BODY:
+/*{
+  "codigo" : 400,
+  "mensagem" : "The function import 'IfDataCadastro' has no function with parameters '[AnoMes, TipoInstituicao]'."
+}*/
+
+========================================================================================================================
+TESTE: cadastro_inline_int
+URL: https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata/IfDataCadastro(AnoMes=202506,TipoInstituicao=2)?$format=json&$top=1
+STATUS: 400
+CONTENT-TYPE: None
+URL FINAL: https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata/IfDataCadastro(AnoMes=202506,TipoInstituicao=2)?$format=json&$top=1
+BODY:
+/*{
+  "codigo" : 400,
+  "mensagem" : "The function import 'IfDataCadastro' has no function with parameters '[AnoMes, TipoInstituicao]'."
+}*/
+
+========================================================================================================================
+TESTE: cadastro_inline_ano_string
+URL: https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata/IfDataCadastro(AnoMes='202506',TipoInstituicao=2)?$format=json&$top=1
+STATUS: 400
+CONTENT-TYPE: None
+URL FINAL: https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata/IfDataCadastro(AnoMes='202506',TipoInstituicao=2)?$format=json&$top=1
+BODY:
+/*{
+  "codigo" : 400,
+  "mensagem" : "The function import 'IfDataCadastro' has no function with parameters '[AnoMes, TipoInstituicao]'."
+}*/
+
+========================================================================================================================
+TESTE: cadastro_querystring_pura
+URL: https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata/IfDataCadastro?AnoMes=202506&TipoInstituicao=2&$format=json&$top=1
+STATUS: 400
+CONTENT-TYPE: None
+URL FINAL: https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata/IfDataCadastro?AnoMes=202506&TipoInstituicao=2&$format=json&$top=1
+BODY:
+/*{
+  "codigo" : 400,
+  "mensagem" : "The URI is malformed."
+}*/
+
+========================================================================================================================
+TESTE: lista_relatorio_simples
+URL: https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata/ListaDeRelatorio?$format=json&$top=1
+STATUS: 400
+CONTENT-TYPE: None
+URL FINAL: https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata/ListaDeRelatorio?$format=json&$top=1
+BODY:
+/*{
+  "codigo" : 400,
+  "mensagem" : "The URI is malformed."
+}*/
+
+========================================================================================================================
+TESTE: valores_alias_params
+URL: https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata/IfDataValores(AnoMes=@AnoMes,TipoInstituicao=@TipoInstituicao,Relatorio=@Relatorio)?@AnoMes=202506&@TipoInstituicao=2&@Relatorio='1'&$format=json&$top=1
+STATUS: 200
+CONTENT-TYPE: application/json;charset=UTF-8;odata.metadata=minimal
+URL FINAL: https://olinda.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata/IfDataValores(AnoMes=@AnoMes,TipoInstituicao=@TipoInstituicao,Relatorio=@Relatorio)?@AnoMes=202506&@TipoInstituicao=2&@Relatorio='1'&$format=json&$top=1
+BODY:
+{"@odata.context":"https://was-p.bcnet.bcb.gov.br/olinda/servico/IFDATA/versao/v1/odata$metadata#_IfDataValores","value":[{"TipoInstituicao":2,"CodInst":"00068987","AnoMes":"202506","NomeRelatorio":"Resumo","NumeroRelatorio":"1","Grupo":null,"Conta":"140200","NomeColuna":"Títulos e Valores Mobiliários","DescricaoColuna":"[1300000008]-[1330000009]","Saldo":21752485.33}]}

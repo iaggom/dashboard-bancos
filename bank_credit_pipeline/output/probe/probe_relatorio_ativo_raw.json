@@ -1,0 +1,122 @@
+[
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Ativo",
+    "NumeroRelatorio": "2",
+    "Grupo": null,
+    "Conta": "140198",
+    "NomeColuna": "Disponibilidades \n(a)",
+    "DescricaoColuna": "[1100000002]",
+    "Saldo": 5174236.99
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Ativo",
+    "NumeroRelatorio": "2",
+    "Grupo": null,
+    "Conta": "140199",
+    "NomeColuna": "Aplicações Interfinanceiras de Liquidez \n(b)",
+    "DescricaoColuna": "[1200000005]",
+    "Saldo": 92660558.07
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Ativo",
+    "NumeroRelatorio": "2",
+    "Grupo": null,
+    "Conta": "140200",
+    "NomeColuna": "Títulos e Valores Mobiliários \n(c)",
+    "DescricaoColuna": "[1300000008]-[1330000009]",
+    "Saldo": 21752485.33
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Ativo",
+    "NumeroRelatorio": "2",
+    "Grupo": null,
+    "Conta": "140218",
+    "NomeColuna": "Outros Ativos Realizáveis \n(i)",
+    "DescricaoColuna": "[1400000001] + [1500000004] + [1900000006] + [1700000000] - [1741000007] + [1800000003] - [1810000000] - [1887900009] - [1899600005]",
+    "Saldo": 166620955.09
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Ativo",
+    "NumeroRelatorio": "2",
+    "Grupo": null,
+    "Conta": "140219",
+    "NomeColuna": "Ativo Permanente \n(j)",
+    "DescricaoColuna": "[2000000008]",
+    "Saldo": 9430626.6
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Ativo",
+    "NumeroRelatorio": "2",
+    "Grupo": null,
+    "Conta": "140220",
+    "NomeColuna": "Ativo Total \n(k) = (a) + (b) + (c) + (d) + (e) + (f) + (g) + (h) + (i) + (j)",
+    "DescricaoColuna": "[1000000009] + [2000000008]",
+    "Saldo": 665476916.87
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Ativo",
+    "NumeroRelatorio": "2",
+    "Grupo": null,
+    "Conta": "141612",
+    "NomeColuna": "Instrumentos Derivativos (d)",
+    "DescricaoColuna": "[1330000009]",
+    "Saldo": 0.0
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Ativo",
+    "NumeroRelatorio": "2",
+    "Grupo": "Operações de Arrendamento Financeiro",
+    "Conta": "140207",
+    "NomeColuna": "Valor Contábil Bruto \n(f1)",
+    "DescricaoColuna": "[1741010004] + [1741020001]",
+    "Saldo": 0.0
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Ativo",
+    "NumeroRelatorio": "2",
+    "Grupo": "Operações de Arrendamento Financeiro",
+    "Conta": "140208",
+    "NomeColuna": "Perda Esperada \n(f2)",
+    "DescricaoColuna": "[1741040005] + [1741050002] + [1741060009]",
+    "Saldo": 0.0
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Ativo",
+    "NumeroRelatorio": "2",
+    "Grupo": "Operações de Arrendamento Financeiro",
+    "Conta": "140209",
+    "NomeColuna": "Hedge de Valor Justo \n(f3)",
+    "DescricaoColuna": "[1741070006]",
+    "Saldo": 0.0
+  }
+]

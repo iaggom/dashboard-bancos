@@ -1,0 +1,122 @@
+[
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Passivo",
+    "NumeroRelatorio": "3",
+    "Grupo": null,
+    "Conta": "140241",
+    "NomeColuna": "Instrumentos Derivativos \n(f)",
+    "DescricaoColuna": "[4700000007]",
+    "Saldo": 0.0
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Passivo",
+    "NumeroRelatorio": "3",
+    "Grupo": null,
+    "Conta": "140242",
+    "NomeColuna": "Outras Obrigações \n(g)",
+    "DescricaoColuna": "[4400000008]+ [4500000001]+ [4800000000]+ [4900000003]",
+    "Saldo": 195674000.99
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Passivo",
+    "NumeroRelatorio": "3",
+    "Grupo": null,
+    "Conta": "140243",
+    "NomeColuna": "Instrumentos de Dívida Elegíveis a Capital \n(h)",
+    "DescricaoColuna": "[4391000007] + [4392000006]",
+    "Saldo": 0.0
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Passivo",
+    "NumeroRelatorio": "3",
+    "Grupo": null,
+    "Conta": "140244",
+    "NomeColuna": "Passivo Exigível \n(i) = (e) + (f) + (g) + (h)",
+    "DescricaoColuna": "[4000000006]",
+    "Saldo": 585832465.19
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Passivo",
+    "NumeroRelatorio": "3",
+    "Grupo": null,
+    "Conta": "140246",
+    "NomeColuna": "Patrimônio Líquido \n(j)",
+    "DescricaoColuna": "[6000000004]+ [7000000003]+ [8000000002]",
+    "Saldo": 79644451.68
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Passivo",
+    "NumeroRelatorio": "3",
+    "Grupo": null,
+    "Conta": "140247",
+    "NomeColuna": "Passivo Total \n(k) = (i) + (j)",
+    "DescricaoColuna": "[4000000006] + [6000000004]+ [7000000003]+ [8000000002]",
+    "Saldo": 665476916.87
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Passivo",
+    "NumeroRelatorio": "3",
+    "Grupo": "Captações",
+    "Conta": "140230",
+    "NomeColuna": "Obrigações por Operações Compromissadas \n(b)",
+    "DescricaoColuna": "[4200000002]",
+    "Saldo": 0.0
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Passivo",
+    "NumeroRelatorio": "3",
+    "Grupo": "Captações",
+    "Conta": "140238",
+    "NomeColuna": "Obrigações por Empréstimos e Repasses \n(d)",
+    "DescricaoColuna": "[4600000004]",
+    "Saldo": 26124.4
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Passivo",
+    "NumeroRelatorio": "3",
+    "Grupo": "Captações",
+    "Conta": "140239",
+    "NomeColuna": "Captações \n(e) = (a) + (b) + (c) + (d)",
+    "DescricaoColuna": "[4100000009] + [4200000002] + [4300000005] - [4391000007] - [4392000006] + [4600000004]",
+    "Saldo": 390158464.2
+  },
+  {
+    "TipoInstituicao": 2,
+    "CodInst": "00068987",
+    "AnoMes": "202506",
+    "NomeRelatorio": "Passivo",
+    "NumeroRelatorio": "3",
+    "Grupo": "Captações - Depósitos",
+    "Conta": "140222",
+    "NomeColuna": "Depósitos à Vista \n(a1)",
+    "DescricaoColuna": "[4110000006]",
+    "Saldo": 96229500.95
+  }
+]
