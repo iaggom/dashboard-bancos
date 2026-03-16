@@ -173,6 +173,46 @@ def probe():
                 f"'Informações de Capital' é {capital_oficial}."
             )
 
+        credito_risco_oficial = report_lookup.get(
+            normalize_text("Carteira de crédito por nível de risco da operação")
+        )
+        credito_config = str(IFDATA_REPORTS.get("credito", ""))
+
+        if credito_risco_oficial and credito_config and credito_risco_oficial != credito_config:
+            summary_lines.append("")
+            summary_lines.append("ALERTA DE CONFIGURAÇÃO:")
+            summary_lines.append(
+                f"  IFDATA_REPORTS['credito'] está como {credito_config}, "
+                f"mas o relatório de risco oficial indica {credito_risco_oficial}."
+            )
+            logger.warning(
+                f"IFDATA_REPORTS['credito']={credito_config}, mas o relatório oficial "
+                f"'Carteira de crédito por nível de risco da operação' é {credito_risco_oficial}."
+            )
+
+        credito_indexador_oficial = report_lookup.get(
+            normalize_text("Carteira de crédito por indexador / composição")
+        )
+        credito_indexador_config = str(IFDATA_REPORTS.get("credito_indexador", ""))
+
+        if (
+            credito_indexador_oficial
+            and credito_indexador_config
+            and credito_indexador_oficial != credito_indexador_config
+        ):
+            summary_lines.append("")
+            summary_lines.append("ALERTA DE CONFIGURAÇÃO:")
+            summary_lines.append(
+                "  IFDATA_REPORTS['credito_indexador'] diverge do código oficial "
+                f"({credito_indexador_config} vs {credito_indexador_oficial})."
+            )
+            logger.warning(
+                "IFDATA_REPORTS['credito_indexador']=%s, mas o relatório oficial "
+                "'Carteira de crédito por indexador / composição' é %s.",
+                credito_indexador_config,
+                credito_indexador_oficial,
+            )
+
         summary_lines.append("")
     else:
         logger.warning("   FALHA ao obter lista de relatórios!")
